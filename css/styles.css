@@ -1,0 +1,233 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: var(--often-color);
+    
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+:root {
+    --often-color: #FFFFFF;
+    --web-color: #4D5AE5;
+    --studio-color: #2E2F42;
+}
+/**----------------------HEADER-------------------*/
+.header {
+    background: var(--background-color);
+}
+.header-logo span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--studio-color);    
+}      
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--web-color);
+}
+.header-list {
+}
+.header-link {
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2E2F42;
+
+}
+.header-link:hover {
+    color: #404bbf;
+}
+.header-link:focus {
+    color: #404bbf;
+}
+.header-item {
+    
+}
+.adress {
+    font-style: normal;   
+}
+.adress-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+.adress-link:hover {
+    color: #404bbf;
+}
+.adress-link:focus {
+    color: #404bbf;
+}
+/**-----------------------HERO---------------------*/
+.hero {
+    background: #2E2F42;
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--often-color);
+}
+.hero-button {
+    background-color: #4D5AE5;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--often-color);
+    cursor: pointer;           
+}
+.hero-button:hover {
+    background-color: #404BBF;
+}
+.hero-button:focus {
+    background-color: #404BBF;
+}
+/**----------------------PLUSES----------------*/
+
+.pluses {
+
+}
+
+.pluses-list {}
+
+.pluses-item {}
+
+.pluses-title {   
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.pluses-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+/**----------------WHAT ARE WE DOING------------*/
+.doing {
+
+}
+.doing-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.doing-list {}
+
+.doing-item {}
+
+/**----------------------OUR TEAM---------------*/
+.team {
+    background: #F4F4FD;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.team-list {}
+
+.team-item {
+    background: var(--often-color);
+}
+
+.team-card {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+.card {}
+
+/**----------------------FOOTER-----------------*/
+.footer {
+    background: #2E2F42;
+}
+.footer-logo span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--web-color);
+}
+.bottom-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+/**--------------------PORTFOLIO------------*/
+.invis-title {
+    visibility: hidden;    
+}
+.filter-button {
+    font-family: inherit;
+    background: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+.filter-button:hover {
+    background: #404BBF;
+    color: var(--often-color);
+}
+.filter-button:focus {
+    background: #404BBF;
+    color: var(--often-color);
+}
+.direct-title {
+    
+}
+
