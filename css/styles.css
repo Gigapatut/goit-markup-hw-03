@@ -14,7 +14,7 @@ h2,
 h3,
 h4,
 h5,
-h6, {
+h6 {
     margin: 0;
 }
 
@@ -42,9 +42,7 @@ button {
 }
 .section {
     padding-top: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
-    ;
+    padding-bottom: 120px; 
 }
 .img {
     display: block;
@@ -77,7 +75,7 @@ body {
 }
 .header {
     background: var(--background-color);
-    border-bottom: #4D5AE5;    
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-navigation {
@@ -93,9 +91,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--studio-color);
-    padding-top: 24px; 
-    padding-bottom: 24px;
-    padding-right: 76px;   
+       
 }      
 .header-logo {
     font-family: 'Raleway', sans-serif;
@@ -107,9 +103,11 @@ body {
     color: var(--web-color);
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-right: 156px;
 }
 .header-list {
     display: flex;
+    gap: 40px;
 }
 .header-link {
     line-height: 1.5;
@@ -118,7 +116,6 @@ body {
     color: #2E2F42;
     padding-top: 24px;
     padding-bottom: 24px;
-    padding-left: 40px;
 }
 .header-link:hover {
     color: #404bbf;
@@ -137,10 +134,10 @@ body {
 
 .adress-list {
     display: flex;
-    margin-left: auto;
+    gap: 40px;
 }
 .adress-item {
-    padding-left: 40px;
+    
 }
 .adress-link {
     font-weight: 400;
@@ -160,7 +157,7 @@ body {
 
     background: #2E2F42;
     padding-bottom: 188px;
-    margin: 0 auto;
+    padding-top: 188px;
     
     
     
@@ -172,7 +169,6 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    padding-top: 68px;
     padding-bottom: 48px;
     text-align: center;
     color: var(--often-color);
@@ -195,7 +191,7 @@ body {
     letter-spacing: 0.04em;
     color: var(--often-color);
     cursor: pointer;
-    border-radius: 4px;
+    border: none;
     margin: auto;
     
 
@@ -214,12 +210,12 @@ body {
 .invis-title {
     height: 0;
     display: flex;
-    margin: 0;
+    
 }
 
 .pluses-list {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
 }
 
 .pluses-item {
@@ -233,7 +229,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin: 0 auto;
+
 }
 
 .pluses-text {
@@ -255,19 +251,19 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 72px;
 }
 
 .doing-list {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
 }
 
 .doing-item {}
 
 /**----------------------OUR TEAM---------------*/
 .team {
-    background: #F4F4FD;
-    width: 1440px ;
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -278,6 +274,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -296,12 +293,17 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-align: center;
+    margin-bottom: ;
 }
 .team-text {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
     text-align: center;
+}
+.team-people {
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 .card {}
 
@@ -310,7 +312,7 @@ body {
     background: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
-    margin: 0 auto;
+
     
 
 
@@ -333,7 +335,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--web-color);
-    padding-left:
+    display: block;
+    margin-bottom: 16px;
 }
 .bottom-text {
     width: 264px;
@@ -345,13 +348,19 @@ body {
     
 }
 /**--------------------PORTFOLIO------------*/
+.nine {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .invis-title {
     visibility: hidden;    
 }
 .filter-list {
     display: flex;
+    margin-bottom: 72px;
+    gap: 24px;
 
-    justify-content: center;
+justify-content: center;
     
 }
 .filter-button {
@@ -371,10 +380,8 @@ body {
     padding-bottom: 12px;
     padding-left: 24px;
     padding-right: 24px;
-    margin-left: 12px;
-    margin-right: 12px;
-    margin-top: 96px;
-    margin-bottom: 72px;
+    
+
 }
 .filter-button:hover {
     background: #404BBF;
@@ -391,8 +398,7 @@ body {
 .direct-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding-bottom: 72px;
+    gap: 48px 24px;
 }
 .direct-list > .item {
     flex-basis: calc(100% / 3);
@@ -413,9 +419,9 @@ body {
     margin: 0;
 }
 .direct {
-    padding-left: 16px;
-    margin-top: 32px;
-    margin-bottom: 80px;
-
+    padding: 32px 16px;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
 }
 
